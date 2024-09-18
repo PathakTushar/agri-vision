@@ -1,22 +1,21 @@
-import React, { useState } from "react";
 import Container from "@/components/layout/Container";
-import Logo from "./Logo";
-import CommonAvatar from "./Avatar";
 import Link from "next/link";
 import {
-    MdOutlinePeopleAlt,
     MdKeyboardArrowDown,
     MdOutlineAssignment,
+    MdOutlinePeopleAlt,
     MdOutlinePsychology,
 } from "react-icons/md";
+import CommonAvatar from "./Avatar";
+import Logo from "./Logo";
 
-import {LuGraduationCap} from "react-icons/lu"
 import {
     DropdownMenu,
-    DropdownMenuTrigger,
     DropdownMenuContent,
     DropdownMenuItem,
+    DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"; // Import Dropdown components from shadcn
+import { LuGraduationCap } from "react-icons/lu";
 
 const Navbar = () => {
     return (

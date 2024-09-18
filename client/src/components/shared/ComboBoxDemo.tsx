@@ -25,7 +25,7 @@ interface Framework {
     label: string;
 }
 
-let frameworks: Framework[] = [];
+const frameworks: Framework[] = [];
 
 for (const country of Object.values(countries)) {
     frameworks.push({ value: country.name.trim(), label: country.name.trim() });

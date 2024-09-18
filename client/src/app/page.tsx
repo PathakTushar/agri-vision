@@ -6,7 +6,6 @@ import Container from "@/components/layout/Container";
 import Footer from "@/components/layout/Footer";
 import ContactUs from "@/components/specific/ContactUs";
 import ServicePlan from "@/components/specific/ServicePlan";
-import Image from "next/image";
 
 export default function Home() {
     return (

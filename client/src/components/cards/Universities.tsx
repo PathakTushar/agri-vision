@@ -1,12 +1,12 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
-import UniversityCard from "./UniversityCard";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import axios from "axios";
 import { countries } from "countries-list";
+import { ChevronRight } from "lucide-react";
+import { useEffect, useState } from "react";
 import { ComboboxDemo } from "../shared/ComboBoxDemo";
+import UniversityCard from "./UniversityCard";
 
 interface University {
     id: number;

@@ -1,7 +1,7 @@
 "use client";
-import { useEffect, useState } from "react";
-import axios from "axios";
 import { Button } from "@/components/ui/button";
+import axios from "axios";
+import { useEffect, useState } from "react";
 import PlanCard from "../cards/PlanCard";
 
 interface PlanFeature {
@@ -21,7 +21,7 @@ export default function ServicePlan() {
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
 
-    const [activeIndex, setActiveIndex] = useState<Number>(0)
+    const [activeIndex, setActiveIndex] = useState<number>(0)
 
     useEffect(() => {
         const fetchPlans = async () => {
