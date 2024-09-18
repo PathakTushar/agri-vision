@@ -51,7 +51,7 @@ export default function ServicePlan() {
                 </h1>
                 <p className="text-gray-300 text-center mb-12 max-w-2xl mx-auto">
                     Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
+                    typesetting industry. Lorem Ipsum has been the industrys
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
                     {plans.map((plan, index) => (

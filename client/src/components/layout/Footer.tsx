@@ -167,7 +167,7 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col items-center">
                         <h3 className="font-semibold text-lg mb-4">
-                            Let's get social:
+                            Lets get social:
                         </h3>
                         <div className="flex space-x-4">
                             {socialLinks.map((link) => (
