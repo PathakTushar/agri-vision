@@ -22,7 +22,7 @@ const nextConfig = {
         ],
     },
     env: {
-        SERVER : "http://localhost:8000"
+        SERVER : "https://agri-vision-production.up.railway.app"
     }
 };
 
